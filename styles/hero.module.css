@@ -9,3 +9,66 @@
 .manntopwrapper {
   background-color: white;
 }
+.textmain {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.textmain h1 {
+  font-size: 100px;
+  line-height: 1.143em;
+  font-weight: 900;
+  text-transform: capitalize;
+  -webkit-text-stroke: 1.6px #000;
+  color: rgba(236, 236, 234, 0.991);
+  letter-spacing: 1px;
+  margin: 0 0 1.7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textmain .inner_textmain {
+  color: #000;
+  -webkit-text-stroke: 0px #000;
+  display: flex;
+}
+.textmain p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 0%;
+}
+.background_backitems1 {
+  position: absolute;
+  top: 0%;
+  right: -20%;
+  height: 40%;
+  z-index: 0;
+  transform: rotate(45deg);
+}
+.background_backitems1 > span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.background_backitems1 .backitems1 {
+  width: 60% !important;
+  height: auto !important;
+  opacity: 0.1;
+}
+@media only screen and (max-width: 769px) {
+  .textmain h1 {
+    font-size: 55px;
+  }
+  .textmain p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (orientation: portrait) {
+  .textmain h1 {
+    font-size: 65px;
+  }
+}

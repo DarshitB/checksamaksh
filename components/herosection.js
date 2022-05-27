@@ -76,6 +76,105 @@ function Herosection() {
         <div className={styles.background_backitems1}>
           <Image src={backitems1} className={styles.backitems1} alt="" />
         </div>
+        <div className={styles.textmain}>
+          <h1>
+            <motion.span variants={items}>W</motion.span>
+            <motion.span variants={items}>E</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={items}>T</motion.span>
+            <motion.span variants={items}>U</motion.span>
+            <motion.span variants={items}>R</motion.span>
+            <motion.span variants={items}>N </motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={items}>Y</motion.span>
+            <motion.span variants={items}>O</motion.span>
+            <motion.span variants={items}>U</motion.span>
+            <motion.span variants={items}>R</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={items}>D</motion.span>
+            <motion.span variants={items}>E</motion.span>
+            <motion.span variants={items}>S</motion.span>
+            <motion.span variants={items}>I</motion.span>
+            <motion.span variants={items}>R</motion.span>
+            <motion.span variants={items}>E</motion.span>
+            <motion.span variants={items}>S</motion.span>
+            <span>&nbsp;</span>
+            <span>
+              <motion.span variants={items}>I</motion.span>
+              <motion.span variants={items}>N</motion.span>
+              <motion.span variants={items}>T</motion.span>
+              <motion.span variants={items}>O</motion.span>
+            </span>
+            <span>&nbsp;</span>
+            <span className={styles.inner_textmain}>
+              <motion.span variants={bottomtotop1}>#</motion.span>
+              <motion.span variants={bottomtotop2}>R</motion.span>
+              <motion.span variants={bottomtotop1}>E</motion.span>
+              <motion.span variants={bottomtotop2}>A</motion.span>
+              <motion.span variants={bottomtotop1}>L</motion.span>
+              <motion.span variants={bottomtotop2}>I</motion.span>
+              <motion.span variants={bottomtotop1}>T</motion.span>
+              <motion.span variants={bottomtotop2}>Y</motion.span>
+            </span>{" "}
+          </h1>
+          <p>
+            <motion.span variants={toptobottom}>We</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>provide</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>all</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>kinds</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>of</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>IT</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>services</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>like</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>consulting,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>analytics,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>lead</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>generation,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>sales,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>websites</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>and</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>application</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>development,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>digital</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>marketing,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>B2B</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>marketing,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>and</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>development,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>graphic</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>design,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>SEO,</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>SEM</motion.span>
+            <span>&nbsp;</span>
+            <motion.span variants={toptobottom}>etc.</motion.span>
+          </p>
+        </div>
       </div>
     </motion.div>
   );
