@@ -1,4 +1,6 @@
 import styles from "../styles/hero.module.css";
+import Image from "next/image";
+import backitems1 from "../public/images/backitems1.svg";
 import { motion } from "framer-motion";
 
 function Herosection() {
@@ -70,7 +72,11 @@ function Herosection() {
   };
   return (
     <motion.div className={styles.manntopwrapper}>
-      <div className={styles.herowrapper}>ndsfbshjdvfgsdf</div>
+      <div className={styles.herowrapper}>
+        <div className={styles.background_backitems1}>
+          <Image src={backitems1} className={styles.backitems1} alt="" />
+        </div>
+      </div>
     </motion.div>
   );
 }
