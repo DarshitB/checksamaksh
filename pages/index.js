@@ -14,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        hdsgfvsdhgfhgsdvfhsvdfjhbsdjhfbsd4
         <Navbar />
       </div>
     </div>

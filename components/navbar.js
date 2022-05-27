@@ -5,12 +5,41 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 function Navbar() {
+  const container = {
+    show: {
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+  const bottomtotop = {
+    hidden: { y: -30, opacity: 0 },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        ease: [0.6, 0.99, 0.99, 0.95],
+        duration: 0.5,
+      },
+    },
+  };
+  const zoom = {
+    hidden: { opacity: 0, scale: 0.5 },
+    show: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        ease: [0.6, 0.01, -0.05, 0.95],
+        duration: 2,
+      },
+    },
+  };
   const router = useRouter();
   const [Click, setClick] = useState(false);
   const handelClick = () => setClick(!Click);
   return (
-    <div>
-      <div className={styles.main_wrapper_nev}>
+    <motion.div variants={container} initial="hidden" animate="show">
+      <motion.div className={styles.main_wrapper_nev} variants={bottomtotop}>
         <div className={styles.sm_logo_container}>
           <Link href="/">
             <a>
@@ -245,8 +274,8 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 
