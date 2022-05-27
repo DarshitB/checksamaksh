@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../styles/Nev.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -273,6 +272,16 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+        </div>
+        <motion.div className={styles.assinsbtn_container} version={zoom}>
+          <Link href="/PreAssessmentForm">
+            <a>
+              <button className={styles.assistebtn}>Pre-Assessment Form</button>
+            </a>
+          </Link>
+        </motion.div>
+        <div className={styles.hamburdermenu} onClick={handelClick}>
+          <i className={Click ? "fa fa-2x fa-times" : "fa fa-2x fa-bars"} />
         </div>
       </motion.div>
     </motion.div>
